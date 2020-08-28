@@ -50,6 +50,7 @@ const IndexPage = () => (
         </a>
       </ul>
     </div>
+
     <div className="content">
       <div className="Main">
         <div className="blob"></div>
