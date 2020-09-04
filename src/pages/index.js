@@ -20,11 +20,11 @@ const IndexPage = () => (
     <div className="sidebar">
       <img src={IEEELogo} className="logo" />
       <ul>
-        <a className="active" href="#home">
+        <a className="active" href="/">
           <FontAwesomeIcon className="icon" icon={faHome} />
           <div className="text">Overview</div>
         </a>
-        <a href="#about">
+        <a href="/about">
           <FontAwesomeIcon className="icon" icon={faPaperPlane} />
           <div className="text">About</div>
         </a>
@@ -62,7 +62,7 @@ const IndexPage = () => (
             hands-on experiences, technical and professional development and
             other resources to help them achieve their potential.
           </p>
-          <Link className="button1" to="/page-2/">
+          <Link className="button1" to="/about/">
             <FontAwesomeIcon className="rightArrow" icon={faArrowRight} />
             Get Involved Today
           </Link>
