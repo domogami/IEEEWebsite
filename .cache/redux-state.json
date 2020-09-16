@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7aa78c0534e82789d8544cd90084d819",
+        "contentDigest": "5384a4fbbafdad0051bc3dd2f85a7d07",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -446,12 +446,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-08-28T20:49:53.743Z",
+      "buildTime": "2020-09-16T22:34:29.444Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "681f1a23b3a388d39e3d3399d2466572",
+        "contentDigest": "350c99de22a93612768b2fe8ee5c8969",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -472,7 +472,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "905547ca60faa43dabf151c0630cd24c",
+        "contentDigest": "832e8c0dc6923f5a868eaee951418793",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/domogami/Documents/GitHub/IEEEWebsite/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/domogami/Documents/GitHub/IEEEWebsite/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "94e8cfd99344f4e1de5702edf09c997d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -493,7 +514,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a925cac889c7fcc6459ba886538d7563",
+        "contentDigest": "af97740318b1783496e177a9fa096b34",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -514,7 +535,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e32dd205a46bf4075a5bb934568b4db9",
+        "contentDigest": "4f79060a4a6826d0a27ce96320714963",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -535,29 +556,8 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3b6991c040c4654b58bf40807b580e14",
+        "contentDigest": "e3a9a176d8e04e45f786378af05bcc58",
         "description": "Plugin prod-404",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /about/": {
-      "layout": "index",
-      "jsonName": "about.json",
-      "internalComponentName": "ComponentAbout",
-      "path": "/about/",
-      "component": "/Users/domogami/Documents/GitHub/IEEEWebsite/src/pages/about.js",
-      "componentChunkName": "component---src-pages-about-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/domogami/Documents/GitHub/IEEEWebsite/src/pages/about.js",
-      "id": "SitePage /about/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "0f1bbb3fbec0c2d6731447d716015f56",
-        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     }

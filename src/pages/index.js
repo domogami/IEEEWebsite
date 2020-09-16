@@ -24,7 +24,7 @@ const IndexPage = () => (
           <FontAwesomeIcon className="icon" icon={faHome} />
           <div className="text">Overview</div>
         </a>
-        <a href="/about">
+        <a href="#about">
           <FontAwesomeIcon className="icon" icon={faPaperPlane} />
           <div className="text">About</div>
         </a>
@@ -101,6 +101,37 @@ const IndexPage = () => (
           text="fuyfiugkvug"
           color="#FF5051"
         />
+      </div>
+    </div>
+    <div className="content2">
+      <div className="about" id="about">
+        <div className="aboutText">
+          <h1>About Us</h1>
+          <p1>
+            We are dedicated to helping develop students into professional
+            Engineers
+          </p1>
+          <p>
+            As an organization, we strive to provide opportunities to students
+            both at UC San Diego and in the larger STEM community to gain
+            hands-on experience with autonomous robotics and its various
+            disciplines. Throughout the year, we host dozens of events and
+            workshops to teach skills not frequently taught in the classroom, as
+            well as outreach events for students looking to give back to the
+            STEM community. We also provide professional development and other
+            resources to help students achieve their true potential as they
+            develop into professional engineers.
+          </p>
+        </div>
+      </div>
+      <div className="contact" id="contact">
+        <div className="contactText">
+          <h1>Contact Us</h1>
+          <ul>
+            <li>One</li>
+            <li>One</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
