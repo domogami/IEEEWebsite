@@ -25,11 +25,13 @@ class eventCard extends Component {
           <FontAwesomeIcon className="eventSymbol" icon={this.props.icon} />
         </div>
         <div className="eventInfo">
-          <FontAwesomeIcon
-            className="cal"
-            icon={faCalendarAlt}
-            style={{ color: this.props.color }}
-          />
+          <div className="circle">
+            <FontAwesomeIcon
+              className="cal"
+              icon={faCalendarAlt}
+              style={{ color: this.props.color }}
+            />
+          </div>
           <p>{this.props.text}</p>
         </div>
       </div>

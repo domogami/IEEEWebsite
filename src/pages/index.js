@@ -86,28 +86,28 @@ const IndexPage = () => (
           title="ML Bootcamp"
           icon={faBrain}
           link="h;ojojo"
-          text="fuyfiugkvug"
+          text="8:30pm, Sat. Sept 2020"
           color="#0059DA"
         />
         <EventCard
           title="HARD Hack"
           icon={faCodeBranch}
           link="h;ojojo"
-          text="fuyfiugkvug"
+          text="8:30pm, Sat. Sept 2020"
           color="#FFB100"
         />
         <EventCard
           title="QP Fall 2020"
           icon={faUsers}
           link="h;ojojo"
-          text="fuyfiugkvug"
+          text="8:30pm, Sat. Sept 2020"
           color="#00CDDA"
         />
         <EventCard
           title="RoboFest"
           icon={faRobot}
           link="h;ojojo"
-          text="fuyfiugkvug"
+          text="8:30pm, Sat. Sept 2020"
           color="#FF5051"
         />
       </div>
