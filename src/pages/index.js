@@ -127,13 +127,28 @@ const IndexPage = () => (
       <div className="contact" id="contact">
         <div className="contactText">
           <h1>Contact Us</h1>
-          <ul>
-            <li>One</li>
-            <li>One</li>
-          </ul>
+          <div className="verticalStack">
+            <a className="generalRow" href="mailto:ieee@eng.ucsd.edu">
+              <p2 className="generalButton">General</p2>
+              <p1>ieee@eng.ucsd.edu</p1>
+            </a>
+            <a className="projectsRow" href="mailto:projects@ieeeucsd.org">
+              <p2 className="projectsButton">Projects</p2>
+              <p1>projects@ieeeucsd.org</p1>
+            </a>
+            <a className="outreachRow" href="mailto:outreach@ieeeucsd.org">
+              <p2 className="outreachButton">Outreach</p2>
+              <p1>outreach@ieeeucsd.org</p1>
+            </a>
+            <a className="technicalRow" href="mailto:tech@ieeeucsd.org">
+              <p2 className="technicalButton">Technical</p2>
+              <p1>tech@ieeeucsd.org</p1>
+            </a>
+          </div>
         </div>
       </div>
     </div>
+    <div className="content3"></div>
   </div>
 );
 

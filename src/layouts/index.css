@@ -87,7 +87,7 @@ body {
   margin-left: 300px;
   padding: 10px 16px;
   display: grid;
-  grid-template-columns: minmax(500px, 5fr) minmax(300px, 3fr);
+  grid-template-columns: minmax(500px, 6fr) minmax(300px, 3fr);
 }
 
 .Main {
@@ -171,22 +171,26 @@ body {
 
 .content2 {
   margin-left: 300px;
-  padding: 10px 16px;
+  padding: 0px 16px;
   display: grid;
-  grid-template-columns: minmax(500px, 3fr) minmax(300px, 3fr);
+  grid-template-columns: minmax(500px, 4fr) minmax(300px, 3fr);
 }
 
 .about {
-  margin: 20px 20px;
+  margin: 20px 20px 20px 20px;
   background-color: #ffffff;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 35px;
   animation: SlideUpAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 }
+.aboutText p1 {
+  color: #2a1a4e;
+  font-weight: 600;
+}
 .aboutText {
   color: #2a1a4e;
-  margin: 20px 40px;
+  margin: 50px 50px 50px 50px;
 }
 .contact {
   margin: 20px 20px;
@@ -200,6 +204,127 @@ body {
   color: #2a1a4e;
   margin: 20px 40px;
 }
+.verticalStack {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.generalRow {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+.generalButton {
+  width: 130px;
+  height: 30px;
+  padding: 10px 5px;
+  background-color: #0059da;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.generalButton:hover {
+  color: black;
+}
+
+.generalRow p1 {
+  margin-left: 20px;
+  padding: 5px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #2a1a4e;
+}
+
+.projectsRow {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+.projectsButton {
+  width: 130px;
+  height: 30px;
+  padding: 10px 5px;
+  background-color: #ffb100;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.projectsRow p1 {
+  margin-left: 20px;
+  padding: 5px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #2a1a4e;
+}
+
+.outreachRow {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+.outreachButton {
+  width: 130px;
+  height: 30px;
+  padding: 10px 5px;
+  background-color: #00cdda;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.outreachRow p1 {
+  margin-left: 20px;
+  padding: 5px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #2a1a4e;
+}
+
+.technicalRow {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+.technicalButton {
+  width: 130px;
+  height: 30px;
+  padding: 10px 5px;
+  background-color: #ff5051;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.technicalRow p1 {
+  margin-left: 20px;
+  padding: 5px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #2a1a4e;
+}
+
 @media screen and (max-width: 700px) {
   .sidebar {
     width: 100%;
@@ -214,9 +339,8 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
+@media screen and (max-width: 500px) {
+  .sidebar {
+    display: none;
   }
 }
