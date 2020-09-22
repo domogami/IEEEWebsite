@@ -10,11 +10,16 @@ import {
   faLightbulb,
   faSeedling,
   faArrowRight,
+  faBrain,
+  faCodeBranch,
+  faRobot,
+  faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 import IEEELogo from "../images/IEEESDLogo.png";
 import photo1 from "../images/outreach.jpg";
 import photo2 from "../images/technical.jpg";
 import EventCard from "../components/eventCard.js";
+
 const IndexPage = () => (
   <div>
     <div className="sidebar">
@@ -79,24 +84,28 @@ const IndexPage = () => (
         <h1>Events</h1>
         <EventCard
           title="ML Bootcamp"
+          icon={faBrain}
           link="h;ojojo"
           text="fuyfiugkvug"
           color="#0059DA"
         />
         <EventCard
           title="HARD Hack"
+          icon={faCodeBranch}
           link="h;ojojo"
           text="fuyfiugkvug"
           color="#FFB100"
         />
         <EventCard
           title="QP Fall 2020"
+          icon={faUsers}
           link="h;ojojo"
           text="fuyfiugkvug"
           color="#00CDDA"
         />
         <EventCard
           title="RoboFest"
+          icon={faRobot}
           link="h;ojojo"
           text="fuyfiugkvug"
           color="#FF5051"

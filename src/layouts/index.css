@@ -62,6 +62,7 @@ body {
   border-radius: 20px;
 }
 /* For Fun Appear */
+
 @keyframes SlideUpAnimation {
   0% {
     opacity: 0;
@@ -227,10 +228,13 @@ body {
   font-size: 20px;
   font-weight: 600;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
 }
 
 .generalButton:hover {
-  color: black;
+  transition-duration: 0.5s;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 10px #0059da;
 }
 
 .generalRow p1 {
@@ -261,6 +265,12 @@ body {
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);
 }
 
+.projectsButton:hover {
+  transition-duration: 0.5s;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 10px #ffb100;
+}
+
 .projectsRow p1 {
   margin-left: 20px;
   padding: 5px;
@@ -289,6 +299,12 @@ body {
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);
 }
 
+.outreachButton:hover {
+  transition-duration: 0.5s;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 10px #00cdda;
+}
+
 .outreachRow p1 {
   margin-left: 20px;
   padding: 5px;
@@ -315,6 +331,12 @@ body {
   font-size: 20px;
   font-weight: 600;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.technicalButton:hover {
+  transition-duration: 0.5s;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 10px #ff5051;
 }
 
 .technicalRow p1 {

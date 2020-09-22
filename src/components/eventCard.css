@@ -14,7 +14,7 @@
 .Card h1 {
   color: white;
   border-width: 5px;
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 400;
   text-align: left;
 }
@@ -24,4 +24,27 @@
   font-size: 20px;
   text-align: left;
   margin: auto;
+}
+
+.titleSymbol {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+.eventSymbol {
+  color: white;
+  padding: 40px;
+}
+
+.eventInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cal {
+  padding: 15px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.eventInfo p {
+  font-weight: 400;
 }

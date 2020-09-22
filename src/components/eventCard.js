@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./eventCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
+
 import "../../node_modules/aos/dist/aos.css";
 
 class eventCard extends Component {
@@ -19,13 +20,20 @@ class eventCard extends Component {
   render() {
     return (
       <div className="Card" style={{ backgroundColor: this.props.color }}>
-        <h1>{this.props.title}</h1>
-        <p>
-          <FontAwesomeIcon className="eventInfo" icon={faArrowRight} />
-          {this.props.text}
-        </p>
+        <div className="titleSymbol">
+          <h1>{this.props.title}</h1>
+          <FontAwesomeIcon className="eventSymbol" icon={this.props.icon} />
+        </div>
+        <div className="eventInfo">
+          <FontAwesomeIcon
+            className="cal"
+            icon={faCalendarAlt}
+            style={{ color: this.props.color }}
+          />
+          <p>{this.props.text}</p>
+        </div>
       </div>
-    )
+    );
   }
 }
 
