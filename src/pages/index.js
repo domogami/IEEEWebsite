@@ -14,6 +14,7 @@ import {
   faCodeBranch,
   faRobot,
   faUsers,
+  faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 import IEEELogo from "../images/IEEESDLogo.png";
 import photo1 from "../images/outreach.jpg";
@@ -85,28 +86,28 @@ const IndexPage = () => (
         <EventCard
           title="ML Bootcamp"
           icon={faBrain}
-          link="h;ojojo"
+          link="https://ieeeucsd.github.io/mlbootcamp/"
           text="8:30pm, Sat. Sept 2020"
           color="#0059DA"
         />
         <EventCard
           title="HARD Hack"
           icon={faCodeBranch}
-          link="h;ojojo"
+          link="https://hardhacksd.com"
           text="8:30pm, Sat. Sept 2020"
           color="#FFB100"
         />
         <EventCard
           title="QP Fall 2020"
           icon={faUsers}
-          link="h;ojojo"
+          link="http://www.ieeeqp.com"
           text="8:30pm, Sat. Sept 2020"
           color="#00CDDA"
         />
         <EventCard
           title="RoboFest"
           icon={faRobot}
-          link="h;ojojo"
+          link="http://www.ieeeqp.com"
           text="8:30pm, Sat. Sept 2020"
           color="#FF5051"
         />
@@ -157,7 +158,39 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="content3"></div>
+    <div className="content3">
+      <div className="getInvolved" id="getinvolved">
+        <div className="getInvolvedText">
+          <h1>Get Involved!</h1>
+          <div className="verticalStack">
+            <a className="generalRow" href="mailto:ieee@eng.ucsd.edu">
+              <p2 className="generalButton">
+                <FontAwesomeIcon icon={faChevronRight} />
+              </p2>
+              <p1>Join IEEE</p1>
+            </a>
+            <a className="projectsRow" href="mailto:projects@ieeeucsd.org">
+              <p2 className="projectsButton">
+                <FontAwesomeIcon icon={faChevronRight} />
+              </p2>
+              <p1>Join our Newsletter</p1>
+            </a>
+            <a className="outreachRow" href="mailto:outreach@ieeeucsd.org">
+              <p2 className="outreachButton">
+                <FontAwesomeIcon icon={faChevronRight} />
+              </p2>
+              <p1>Join our Facebook</p1>
+            </a>
+            <a className="technicalRow" href="mailto:tech@ieeeucsd.org">
+              <p2 className="technicalButton">
+                <FontAwesomeIcon icon={faChevronRight} />
+              </p2>
+              <p1>Join I-TRIPLE-EATS</p1>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 );
 

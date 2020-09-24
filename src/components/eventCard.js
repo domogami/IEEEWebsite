@@ -19,7 +19,11 @@ class eventCard extends Component {
   }
   render() {
     return (
-      <div className="Card" style={{ backgroundColor: this.props.color }}>
+      <a
+        className="Card"
+        href={this.props.link}
+        style={{ backgroundColor: this.props.color }}
+      >
         <div className="titleSymbol">
           <h1>{this.props.title}</h1>
           <FontAwesomeIcon className="eventSymbol" icon={this.props.icon} />
@@ -34,7 +38,7 @@ class eventCard extends Component {
           </div>
           <p>{this.props.text}</p>
         </div>
-      </div>
+      </a>
     );
   }
 }

@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4859d8ffcc7d738fe91885910e3e2ce2",
+        "contentDigest": "d355b6de9b5c3114e272a643fee2ef19",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -444,12 +444,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2020-09-22T01:21:34.193Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2020-09-24T02:23:15.442Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2e232b314a549e94698f2cb078abc18a",
+        "contentDigest": "cc6c4d5f2290e7739cc186ce5e3b30e5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -470,7 +472,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5674187256ca9941b78ab61b569ecc63",
+        "contentDigest": "aad85958ed5d8e82380478b0f4980b49",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -491,7 +493,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b76cae1b239430c01a47edad76bf5233",
+        "contentDigest": "bb7e4f9b7f3863d12031262cd586da51",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -512,7 +514,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4438aab5a199d0a812e093360814b694",
+        "contentDigest": "f03194c049efc63d5fc209ae13f72a42",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -533,7 +535,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7a9658c64a40e8e452fb9b28ef251395",
+        "contentDigest": "baa626d0f0a247bd846b266256baf12b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -554,7 +556,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "95185fe788983077ec5716aff66471b6",
+        "contentDigest": "df7241206620ce9b387e507595fab28d",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
