@@ -21,6 +21,14 @@ import photo1 from "../images/outreach.jpg";
 import photo2 from "../images/technical.jpg";
 import EventCard from "../components/eventCard.js";
 
+var mainColors = {
+  Default: "#81b71a",
+  Blue: "#0059da",
+  Yellow: "#ffb100",
+  skyBlue: "#00cdda",
+  Red: "#ff5051",
+};
+
 const IndexPage = () => (
   <div>
     <div className="sidebar">
@@ -163,26 +171,38 @@ const IndexPage = () => (
         <div className="getInvolvedText">
           <h1>Get Involved!</h1>
           <div className="verticalStack">
-            <a className="generalRow" href="mailto:ieee@eng.ucsd.edu">
-              <p2 className="generalButton">
+            <a className="arrowRow" href="mailto:ieee@eng.ucsd.edu">
+              <p2
+                className="arrowButton"
+                style={{ backgroundColor: mainColors.Blue }}
+              >
                 <FontAwesomeIcon icon={faChevronRight} />
               </p2>
               <p1>Join IEEE</p1>
             </a>
-            <a className="projectsRow" href="mailto:projects@ieeeucsd.org">
-              <p2 className="projectsButton">
+            <a className="arrowRow" href="mailto:projects@ieeeucsd.org">
+              <p2
+                className="arrowButton"
+                style={{ backgroundColor: mainColors.Yellow }}
+              >
                 <FontAwesomeIcon icon={faChevronRight} />
               </p2>
               <p1>Join our Newsletter</p1>
             </a>
-            <a className="outreachRow" href="mailto:outreach@ieeeucsd.org">
-              <p2 className="outreachButton">
+            <a className="arrowRow" href="mailto:outreach@ieeeucsd.org">
+              <p2
+                className="arrowButton"
+                style={{ backgroundColor: mainColors.skyBlue }}
+              >
                 <FontAwesomeIcon icon={faChevronRight} />
               </p2>
               <p1>Join our Facebook</p1>
             </a>
-            <a className="technicalRow" href="mailto:tech@ieeeucsd.org">
-              <p2 className="technicalButton">
+            <a className="arrowRow" href="mailto:tech@ieeeucsd.org">
+              <p2
+                className="arrowButton"
+                style={{ backgroundColor: mainColors.Red }}
+              >
                 <FontAwesomeIcon icon={faChevronRight} />
               </p2>
               <p1>Join I-TRIPLE-EATS</p1>
