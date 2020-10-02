@@ -20,6 +20,7 @@ import IEEELogo from "../images/IEEESDLogo.png";
 import photo1 from "../images/outreach.jpg";
 import photo2 from "../images/technical.jpg";
 import EventCard from "../components/eventCard.js";
+import ProjectSpace from "../images/projectspace.jpg";
 
 var mainColors = {
   Default: "#81b71a",
@@ -123,8 +124,8 @@ const IndexPage = () => (
     </div>
     <div className="content2">
       <div className="about" id="about">
+        <h1>About Us</h1>
         <div className="aboutText">
-          <h1>About Us</h1>
           <p1>
             We are dedicated to helping develop students into professional
             Engineers
@@ -143,8 +144,8 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="contact" id="contact">
+        <h1>Contact Us</h1>
         <div className="contactText">
-          <h1>Contact Us</h1>
           <div className="verticalStack">
             <a className="generalRow" href="mailto:ieee@eng.ucsd.edu">
               <p2 className="generalButton">General</p2>
@@ -168,8 +169,8 @@ const IndexPage = () => (
     </div>
     <div className="content3">
       <div className="getInvolved" id="getinvolved">
+        <h1>Get Involved!</h1>
         <div className="getInvolvedText">
-          <h1>Get Involved!</h1>
           <div className="verticalStack">
             <a className="arrowRow" href="mailto:ieee@eng.ucsd.edu">
               <p2
@@ -208,6 +209,26 @@ const IndexPage = () => (
               <p1>Join I-TRIPLE-EATS</p1>
             </a>
           </div>
+        </div>
+      </div>
+      <div className="ProjectSpace">
+        <h1>Project Space</h1>
+        <div className="ProjectSpaceContent">
+          <div className="ProjectSpaceText">
+            <p2>@EBU1-4710</p2>
+            <p1>
+              The Project Space is an open collaborative space for students to
+              work on projects, practice technical skills, or meet new people
+              and hang out.
+            </p1>
+            <a className="ProjectSpaceButton" href="/">
+              <p2 className="discordButton">
+                <FontAwesomeIcon icon={faChevronRight} />
+              </p2>
+              <p1>Our Discord</p1>
+            </a>
+          </div>
+          <img className="ProjectSpacePhoto" src={ProjectSpace}></img>
         </div>
       </div>
     </div>
