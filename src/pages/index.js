@@ -21,6 +21,9 @@ import photo1 from "../images/outreach.jpg";
 import photo2 from "../images/technical.jpg";
 import EventCard from "../components/eventCard.js";
 import ProjectSpace from "../images/projectspace.jpg";
+import Sponsors from "../images/sponsors2019-2020.png";
+import QP from "../images/quarter.jpg";
+import AP from "../images/micromouse.jpg";
 
 var mainColors = {
   Default: "#81b71a",
@@ -28,6 +31,7 @@ var mainColors = {
   Yellow: "#ffb100",
   skyBlue: "#00cdda",
   Red: "#ff5051",
+  discord: "#7289d9",
 };
 
 const IndexPage = () => (
@@ -221,14 +225,100 @@ const IndexPage = () => (
               work on projects, practice technical skills, or meet new people
               and hang out.
             </p1>
-            <a className="ProjectSpaceButton" href="/">
-              <p2 className="discordButton">
-                <FontAwesomeIcon icon={faChevronRight} />
-              </p2>
-              <p1>Our Discord</p1>
-            </a>
+            <div>
+              <button className="learn-more">
+                <span
+                  className="circle"
+                  aria-hidden="true"
+                  style={{ background: mainColors.discord }}
+                >
+                  <span className="icon arrow"></span>
+                </span>
+                <a href="/" className="button-text">
+                  Support Us
+                </a>
+              </button>
+            </div>
           </div>
           <img className="ProjectSpacePhoto" src={ProjectSpace}></img>
+        </div>
+      </div>
+    </div>
+    <div className="content4">
+      <div className="Sponsorship">
+        <h1>Sponsorship</h1>
+        <div className="SponsorshipText">
+          <p1>
+            IEEE Student Branch at UC San Diego is a non-profit organization
+            focused on developing bright engineers to serve the community around
+            us by hosting various events, community outreach, and several
+            technical project national competitions. These programs would not
+            have been possible without the generousity of our sponsors. Thus, we
+            invite you to support and be a part of our efforts to strengthen our
+            future scientists and engineers.
+          </p1>
+          <div className="sponsorshipButton">
+            <button className="learn-more">
+              <span
+                className="circle"
+                aria-hidden="true"
+                style={{ background: mainColors.Red }}
+              >
+                <span className="icon arrow"></span>
+              </span>
+              <a href="/" className="button-text">
+                Support Us
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="OurSponsors">
+        <div className="SponsorTitleGroup">
+          <h1>Our Sponsors</h1>
+          <FontAwesomeIcon className="SponsorHeart" icon={faHeart} />
+        </div>
+        <img className="SponsorImage" src={Sponsors}></img>
+      </div>
+    </div>
+    <div className="content5">
+      <div className="Projects">
+        <h1>Projects</h1>
+        <div className="QPandAP">
+          <div className="projectText">
+            <img src={QP}></img>
+            <p2>Quarterly Projects</p2>
+            <p1>
+              Applications open the beginning of every quarter and is a great
+              opportunity for students to work together and gain more hands-on
+              technical experience.
+            </p1>
+            <button className="learn-more">
+              <span className="circle" aria-hidden="true">
+                <span className="icon arrow"></span>
+              </span>
+              <a href="/" className="button-text">
+                Learn More
+              </a>
+            </button>
+          </div>
+          <div className="projectText">
+            <img src={AP}></img>
+            <p2>Annual Projects</p2>
+            <p1>
+              Applications open the beginning of Fall quarter each year.
+              Students are able to work together in a team all year long to
+              build projects for a multitude of different competitions!
+            </p1>
+            <button className="learn-more">
+              <span className="circle" aria-hidden="true">
+                <span className="icon arrow"></span>
+              </span>
+              <a href="/" className="button-text">
+                Learn More
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </div>
