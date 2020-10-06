@@ -100,28 +100,28 @@ const IndexPage = () => (
           title="ML Bootcamp"
           icon={faBrain}
           link="https://ieeeucsd.github.io/mlbootcamp/"
-          text="8:30pm, Sat. Sept 2020"
+          text="8:30pm Sept 20th"
           color="#0059DA"
         />
         <EventCard
           title="HARD Hack"
           icon={faCodeBranch}
           link="https://hardhacksd.com"
-          text="8:30pm, Sat. Sept 2020"
+          text="8:30pm, Sept 20th"
           color="#FFB100"
         />
         <EventCard
           title="QP Fall 2020"
           icon={faUsers}
           link="http://www.ieeeqp.com"
-          text="8:30pm, Sat. Sept 2020"
+          text="8:30pm, Sept 20th"
           color="#00CDDA"
         />
         <EventCard
           title="RoboFest"
           icon={faRobot}
           link="http://www.ieeeqp.com"
-          text="8:30pm, Sat. Sept 2020"
+          text="8:30pm, Sept 20th"
           color="#FF5051"
         />
       </div>

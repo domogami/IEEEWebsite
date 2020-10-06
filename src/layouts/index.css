@@ -100,7 +100,7 @@ h1 {
   margin-left: 300px;
   padding: 10px 16px;
   display: grid;
-  grid-template-columns: minmax(500px, 6fr) minmax(300px, 3fr);
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
 .Main {
@@ -115,6 +115,7 @@ h1 {
   max-height: 95vh;
   animation: SlideUpAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
+  grid-column: span 2;
 }
 
 .TextGroup {
@@ -126,7 +127,9 @@ h1 {
 .TextGroup h1 {
   font-size: 60px;
   color: white;
+  margin-left: 0;
 }
+
 .TextGroup p {
   color: white;
   font-size: 20px;
@@ -169,12 +172,12 @@ h1 {
   font-size: 40px;
   font-weight: 400;
   color: #2a1a4e;
-  margin-top: 170px;
+  padding-top: 15%;
   margin-left: 30px;
 }
 .Photos .PhotoGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding-bottom: 50px;
 }
 .Photos img {
@@ -187,11 +190,11 @@ h1 {
   margin-left: 300px;
   padding: 0px 16px;
   display: grid;
-  grid-template-columns: minmax(500px, 4fr) minmax(300px, 3fr);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .about {
-  margin: 20px 20px 20px 20px;
+  margin: 20px;
   background-color: #ffffff;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 35px;
@@ -204,10 +207,10 @@ h1 {
 }
 .aboutText {
   color: #2a1a4e;
-  margin: 50px 50px 50px 50px;
+  margin: 50px;
 }
 .contact {
-  margin: 20px 20px;
+  margin: 20px;
   background-color: #ffffff;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 35px;
@@ -216,7 +219,8 @@ h1 {
 }
 .contactText {
   color: #2a1a4e;
-  margin: 20px 40px;
+  margin: auto;
+  padding: 20px 40px;
 }
 .verticalStack {
   display: grid;
@@ -472,9 +476,11 @@ h1 {
   color: #ff5051;
   padding: 40px;
 }
-
 .SponsorImage {
+  height: auto;
+  display: inline-block;
   margin: auto;
+  padding: 0px;
   max-width: 600px;
 }
 
@@ -496,23 +502,20 @@ h1 {
 }
 
 .QPandAP {
-  margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .projectText {
-  margin: auto;
   display: grid;
   grid-template-rows: repeat(auto-fit);
   padding: 0px 40px 40px 40px;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .QPandAP img {
   max-width: 500px;
   border-radius: 35px;
-  margin: auto;
   padding: 10px;
 }
 
@@ -530,23 +533,76 @@ h1 {
   padding-top: 10px;
 }
 
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
+@media (max-width: 1550px) {
+  .Main {
+    grid-column: span 1;
   }
-  .sidebar a {
-    float: left;
+  .TextGroup {
+    margin: 30px;
   }
-  div.content {
+  .TextGroup h1 {
+    font-size: 40px;
     margin-left: 0;
+  }
+  .TextGroup p {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .getInvolvedButton {
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 18px;
+  }
+  .QPandAP img {
+    width: 400px;
+  }
+  .projectText {
+    margin: auto;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 850px) {
   .sidebar {
     display: none;
+  }
+  .content {
+    margin: auto;
+  }
+  .content2 {
+    margin: auto;
+  }
+  .content3 {
+    margin-left: auto;
+  }
+  .content4 {
+    margin-left: auto;
+  }
+  .content5 {
+    margin-left: auto;
+  }
+  .QPandAP img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sidebar {
+    display: none;
+  }
+  .content {
+    margin: auto;
+  }
+  .content2 {
+    margin: auto;
+  }
+  .content3 {
+    margin-left: 0;
+  }
+  .content4 {
+    margin-left: 0;
+  }
+  .content5 {
+    margin-left: 0;
   }
 }
 
