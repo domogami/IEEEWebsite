@@ -175,43 +175,63 @@ const IndexPage = () => (
       <div className="getInvolved" id="getinvolved">
         <h1>Get Involved!</h1>
         <div className="getInvolvedText">
-          <div className="verticalStack">
-            <a className="arrowRow" href="mailto:ieee@eng.ucsd.edu">
-              <p2
-                className="arrowButton"
-                style={{ backgroundColor: mainColors.Blue }}
-              >
-                <FontAwesomeIcon icon={faChevronRight} />
-              </p2>
-              <p1>Join IEEE</p1>
-            </a>
-            <a className="arrowRow" href="mailto:projects@ieeeucsd.org">
-              <p2
-                className="arrowButton"
-                style={{ backgroundColor: mainColors.Yellow }}
-              >
-                <FontAwesomeIcon icon={faChevronRight} />
-              </p2>
-              <p1>Join our Newsletter</p1>
-            </a>
-            <a className="arrowRow" href="mailto:outreach@ieeeucsd.org">
-              <p2
-                className="arrowButton"
-                style={{ backgroundColor: mainColors.skyBlue }}
-              >
-                <FontAwesomeIcon icon={faChevronRight} />
-              </p2>
-              <p1>Join our Facebook</p1>
-            </a>
-            <a className="arrowRow" href="mailto:tech@ieeeucsd.org">
-              <p2
-                className="arrowButton"
-                style={{ backgroundColor: mainColors.Red }}
-              >
-                <FontAwesomeIcon icon={faChevronRight} />
-              </p2>
-              <p1>Join I-TRIPLE-EATS</p1>
-            </a>
+          <div className="involvementStack">
+            <div className="involvementButton">
+              <button className="learn-more">
+                <span
+                  className="circle"
+                  aria-hidden="true"
+                  style={{ background: mainColors.Blue }}
+                >
+                  <span className="icon arrow"></span>
+                </span>
+                <a href="mailto:ieee@eng.ucsd.edu" className="button-text">
+                  Join IEEE
+                </a>
+              </button>
+            </div>
+            <div className="involvementButton">
+              <button className="learn-more">
+                <span
+                  className="circle"
+                  aria-hidden="true"
+                  style={{ background: mainColors.Yellow }}
+                >
+                  <span className="icon arrow"></span>
+                </span>
+                <a href="mailto:projects@ieeeucsd.org" className="button-text">
+                  Our Newsletter
+                </a>
+              </button>
+            </div>
+            <div className="involvementButton">
+              <button className="learn-more">
+                <span
+                  className="circle"
+                  aria-hidden="true"
+                  style={{ background: mainColors.skyBlue }}
+                >
+                  <span className="icon arrow"></span>
+                </span>
+                <a href="mailto:projects@ieeeucsd.org" className="button-text">
+                  Our Facebook
+                </a>
+              </button>
+            </div>
+            <div className="involvementButton">
+              <button className="learn-more">
+                <span
+                  className="circle"
+                  aria-hidden="true"
+                  style={{ background: mainColors.Red }}
+                >
+                  <span className="icon arrow"></span>
+                </span>
+                <a href="mailto:projects@ieeeucsd.org" className="button-text">
+                  I-TRIPLE-EATS
+                </a>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -247,7 +267,7 @@ const IndexPage = () => (
     <div className="content4">
       <div className="Sponsorship">
         <h1>Sponsorship</h1>
-        <div className="SponsorshipText">
+        <div className="SponsorText">
           <p1>
             IEEE Student Branch at UC San Diego is a non-profit organization
             focused on developing bright engineers to serve the community around
@@ -257,7 +277,7 @@ const IndexPage = () => (
             invite you to support and be a part of our efforts to strengthen our
             future scientists and engineers.
           </p1>
-          <div className="sponsorshipButton">
+          <div className="sponsorButton">
             <button className="learn-more">
               <span
                 className="circle"
@@ -266,7 +286,7 @@ const IndexPage = () => (
               >
                 <span className="icon arrow"></span>
               </span>
-              <a href="/" className="button-text">
+              <a href="mailto:projects@ieeeucsd.org" className="button-text">
                 Support Us
               </a>
             </button>

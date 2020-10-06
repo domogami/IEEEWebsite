@@ -149,7 +149,7 @@ h1 {
 .getInvolvedButton:hover {
   transition-duration: 0.5s;
   transform: translateY(-5px) scale(1.15);
-  box-shadow: 0 0 10px #0059da;
+  box-shadow: 0 0 10px #4c4c4c;
 }
 
 .Events {
@@ -376,40 +376,16 @@ h1 {
 }
 .getInvolvedText {
   color: #2a1a4e;
-  margin: 20px 40px;
 }
 
-.arrowRow {
+.involvementStack {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  padding: 25px 20px;
-  text-decoration: none;
+  grid-template-rows: repeat(auto-fit);
 }
 
-.arrowButton {
-  width: 30px;
-  height: 30px;
-  padding: 10px 10px;
-  border-radius: 30px;
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  font-weight: 600;
-  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);
-}
-
-.arrowButton:hover {
-  transition-duration: 0.5s;
-  transform: translateY(-5px) scale(1.05);
-  box-shadow: 0 0 10px #65626b;
-}
-
-.arrowRow p1 {
-  margin-left: 10px;
-  padding: 5px;
-  font-size: 23px;
-  font-weight: 600;
-  color: #2a1a4e;
+.involvementButton {
+  margin: auto;
+  padding: 0px 0 40px 0;
 }
 
 .ProjectSpace {
@@ -467,19 +443,16 @@ h1 {
   animation: SlideUpAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 }
-.SponsorshipText {
-  display: grid;
-  grid-template-rows: auto;
+.SponsorText {
   padding-left: 40px;
   padding-right: 40px;
 }
-
-.SponsorshipText p1 {
+.Sponsorship p1 {
   color: #2a1a4e;
 }
-
-.sponsorshipButton {
+.sponsorButton {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .OurSponsors {
@@ -647,8 +620,9 @@ button {
   color: #282936;
   font-weight: 600;
   line-height: 1.3;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
+  padding-left: 30px;
 }
 button:hover .circle {
   width: 100%;
