@@ -136,13 +136,14 @@ h1 {
   padding-bottom: 30px;
 }
 .rightArrow {
-  color: black;
+  color: #2a1a4e;
   padding-right: 10px;
 }
 .getInvolvedButton {
+  display: inline-block;
   background-color: white;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
-  color: black;
+  color: #2a1a4e;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 20px;
@@ -151,8 +152,8 @@ h1 {
 
 .getInvolvedButton:hover {
   transition-duration: 0.5s;
-  transform: translateY(-5px) scale(1.15);
-  box-shadow: 0 0 10px #4c4c4c;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 10px #d9d9d9;
 }
 
 .Events {
@@ -558,6 +559,9 @@ h1 {
   }
   .projectText {
     margin: auto;
+  }
+  .PhotoGrid .photo2 {
+    display: none;
   }
 }
 

@@ -81,16 +81,18 @@ const IndexPage = () => (
             hands-on experiences, technical and professional development and
             other resources to help them achieve their potential.
           </p>
-          <Link className="getInvolvedButton" to="#getinvolved">
-            <FontAwesomeIcon className="rightArrow" icon={faArrowRight} />
-            Get Involved Today
-          </Link>
+          <div>
+            <a className="getInvolvedButton" href="#getinvolved">
+              <FontAwesomeIcon className="rightArrow" icon={faArrowRight} />
+              Get Involved
+            </a>
+          </div>
         </div>
         <div className="Photos">
           <h1>Photos</h1>
           <div className="PhotoGrid">
             <img src={photo1}></img>
-            <img src={photo2}></img>
+            <img classname="photo2" src={photo2}></img>
           </div>
         </div>
       </div>
