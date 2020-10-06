@@ -81,7 +81,7 @@ const IndexPage = () => (
             hands-on experiences, technical and professional development and
             other resources to help them achieve their potential.
           </p>
-          <Link className="button1" to="/about/">
+          <Link className="getInvolvedButton" to="#getinvolved">
             <FontAwesomeIcon className="rightArrow" icon={faArrowRight} />
             Get Involved Today
           </Link>
@@ -225,7 +225,7 @@ const IndexPage = () => (
               work on projects, practice technical skills, or meet new people
               and hang out.
             </p1>
-            <div>
+            <div className="DiscordButton">
               <button className="learn-more">
                 <span
                   className="circle"
@@ -235,7 +235,7 @@ const IndexPage = () => (
                   <span className="icon arrow"></span>
                 </span>
                 <a href="/" className="button-text">
-                  Support Us
+                  Our Discord
                 </a>
               </button>
             </div>
@@ -293,14 +293,20 @@ const IndexPage = () => (
               opportunity for students to work together and gain more hands-on
               technical experience.
             </p1>
-            <button className="learn-more">
-              <span className="circle" aria-hidden="true">
-                <span className="icon arrow"></span>
-              </span>
-              <a href="/" className="button-text">
-                Learn More
-              </a>
-            </button>
+            <div className="projectButton">
+              <button className="learn-more">
+                <span
+                  className="circle"
+                  aria-hidden="true"
+                  style={{ background: mainColors.Blue }}
+                >
+                  <span className="icon arrow"></span>
+                </span>
+                <a href="/" className="button-text">
+                  Learn More
+                </a>
+              </button>
+            </div>
           </div>
           <div className="projectText">
             <img src={AP}></img>
@@ -311,7 +317,11 @@ const IndexPage = () => (
               build projects for a multitude of different competitions!
             </p1>
             <button className="learn-more">
-              <span className="circle" aria-hidden="true">
+              <span
+                className="circle"
+                aria-hidden="true"
+                style={{ background: mainColors.Yellow }}
+              >
                 <span className="icon arrow"></span>
               </span>
               <a href="/" className="button-text">

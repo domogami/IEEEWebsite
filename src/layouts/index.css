@@ -136,13 +136,20 @@ h1 {
   color: black;
   padding-right: 10px;
 }
-.button1 {
+.getInvolvedButton {
   background-color: white;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
   color: black;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.getInvolvedButton:hover {
+  transition-duration: 0.5s;
+  transform: translateY(-5px) scale(1.15);
+  box-shadow: 0 0 10px #0059da;
 }
 
 .Events {
@@ -356,7 +363,7 @@ h1 {
   margin-left: 300px;
   padding: 0px 16px;
   display: grid;
-  grid-template-columns: minmax(300px, 2fr) minmax(300px, 3fr);
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
 }
 
 .getInvolved {
@@ -420,19 +427,26 @@ h1 {
   grid-template-rows: repeat(auto-fit);
   margin-left: 40px;
 }
-
+.ProjectSpaceText p1 {
+  padding: 20px;
+}
 .ProjectSpaceText p2 {
   font-weight: 800;
   font-size: 25px;
+  padding: 20px;
+}
+
+.DiscordButton {
+  padding: 20px;
 }
 
 .ProjectSpaceContent {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
 }
 
 .ProjectSpacePhoto {
-  margin: 10px;
+  margin: auto;
   padding: 20px;
   height: 350px;
   width: 350px;
@@ -443,7 +457,7 @@ h1 {
   margin-left: 300px;
   padding: 0px 16px;
   display: grid;
-  grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 .Sponsorship {
   margin: 20px 20px;
@@ -455,9 +469,12 @@ h1 {
 }
 .SponsorshipText {
   display: grid;
-  grid-template-rows: repeat(auto-fit);
+  grid-template-rows: auto;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.SponsorshipText p1 {
   color: #2a1a4e;
 }
 
@@ -484,8 +501,8 @@ h1 {
 }
 
 .SponsorImage {
-  max-width: 600px;
   margin: auto;
+  max-width: 600px;
 }
 
 .content5 {
@@ -506,11 +523,13 @@ h1 {
 }
 
 .QPandAP {
+  margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
 .projectText {
+  margin: auto;
   display: grid;
   grid-template-rows: repeat(auto-fit);
   padding: 0px 40px 40px 40px;
@@ -521,6 +540,21 @@ h1 {
   max-width: 500px;
   border-radius: 35px;
   margin: auto;
+  padding: 10px;
+}
+
+.projectText p1 {
+  padding: 10px;
+}
+
+.projectText p2 {
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.projectButton {
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 700px) {
