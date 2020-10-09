@@ -187,7 +187,10 @@ const IndexPage = () => (
                 >
                   <span className="icon arrow"></span>
                 </span>
-                <a href="mailto:ieee@eng.ucsd.edu" className="button-text">
+                <a
+                  href="https://www.ieee.org/membership/join/index.html"
+                  className="button-text"
+                >
                   Join IEEE
                 </a>
               </button>
@@ -201,7 +204,7 @@ const IndexPage = () => (
                 >
                   <span className="icon arrow"></span>
                 </span>
-                <a href="mailto:projects@ieeeucsd.org" className="button-text">
+                <a href="http://eepurl.com/gkUclH" className="button-text">
                   Our Newsletter
                 </a>
               </button>
@@ -215,7 +218,10 @@ const IndexPage = () => (
                 >
                   <span className="icon arrow"></span>
                 </span>
-                <a href="mailto:projects@ieeeucsd.org" className="button-text">
+                <a
+                  href="https://www.facebook.com/ieeeucsd/?view_public_for=851520398231493"
+                  className="button-text"
+                >
                   Our Facebook
                 </a>
               </button>
@@ -229,7 +235,10 @@ const IndexPage = () => (
                 >
                   <span className="icon arrow"></span>
                 </span>
-                <a href="mailto:projects@ieeeucsd.org" className="button-text">
+                <a
+                  href="https://www.facebook.com/ieeeucsd/?view_public_for=851520398231493"
+                  className="button-text"
+                >
                   I-TRIPLE-EATS
                 </a>
               </button>
@@ -256,7 +265,7 @@ const IndexPage = () => (
                 >
                   <span className="icon arrow"></span>
                 </span>
-                <a href="/" className="button-text">
+                <a href="https://discord.gg/NvvP5eF" className="button-text">
                   Our Discord
                 </a>
               </button>
@@ -288,7 +297,7 @@ const IndexPage = () => (
               >
                 <span className="icon arrow"></span>
               </span>
-              <a href="mailto:projects@ieeeucsd.org" className="button-text">
+              <a href="/sponsor" className="button-text">
                 Support Us
               </a>
             </button>
@@ -324,7 +333,7 @@ const IndexPage = () => (
                 >
                   <span className="icon arrow"></span>
                 </span>
-                <a href="/" className="button-text">
+                <a href="http://tinyurl.com/QPTeamApp" className="button-text">
                   Learn More
                 </a>
               </button>

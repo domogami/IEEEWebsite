@@ -191,7 +191,7 @@ h1 {
   margin-left: 300px;
   padding: 0px 16px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
 .about {
@@ -208,7 +208,7 @@ h1 {
 }
 .aboutText {
   color: #2a1a4e;
-  margin: 50px;
+  margin: 0 40px 40px 40px;
 }
 .contact {
   margin: 20px;
@@ -563,6 +563,9 @@ h1 {
   .PhotoGrid .photo2 {
     display: none;
   }
+  .contactText {
+    margin: auto;
+  }
 }
 
 @media (max-width: 850px) {
@@ -607,6 +610,9 @@ h1 {
   }
   .content5 {
     margin-left: 0;
+  }
+  h1 {
+    font-size: 30px;
   }
 }
 
