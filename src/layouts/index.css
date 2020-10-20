@@ -86,6 +86,7 @@ h1 {
 .rightArrow {
   color: #2a1a4e;
   padding-right: 10px;
+  font-size: 20px;
 }
 .getInvolvedButton {
   display: inline-block;
