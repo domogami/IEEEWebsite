@@ -34,7 +34,7 @@ class sidebar extends Component {
         <img src={IEEELogo} className="logo" />
         <ul>
           <Link className="nonActive" activeClassName="active" to="/#main">
-            <FontAwesomeIcon className="icon" icon={faHome} />
+            <FontAwesomeIcon className="icon" icon={faHome} size="1x"/>
             <div className="text">Overview</div>
           </Link>
           <Link className="nonActive" activeClassName="active" to="/#events" >
