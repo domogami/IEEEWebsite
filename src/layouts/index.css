@@ -117,6 +117,10 @@ h1 {
 .Events p {
   margin-left: 30px;
 }
+
+.Photos {
+  margin: auto;
+}
 .Photos h1 {
   font-size: 40px;
   font-weight: 400;
@@ -426,11 +430,9 @@ h1 {
   padding: 40px;
 }
 .SponsorImage {
+  width: 100%;
   height: auto;
-  display: inline-block;
   margin: auto;
-  padding: 0px;
-  max-width: 600px;
 }
 
 .content5 {
@@ -508,7 +510,9 @@ h1 {
   .projectText {
     margin: auto;
   }
-  .PhotoGrid .photo2 {
+  .Photos {
+  }
+  .photo2 {
     display: none;
   }
   .contactText {
@@ -535,8 +539,14 @@ h1 {
   .content5 {
     margin-left: auto;
   }
+  .photo2 {
+    display: none;
+  }
   .QPandAP img {
     width: 300px;
+  }
+  .contactText {
+    padding: 20px;
   }
 }
 
@@ -561,6 +571,16 @@ h1 {
   }
   h1 {
     font-size: 30px;
+  }
+  p1 {
+    font-size: 20px;
+  }
+  .photo2 {
+    display: none;
+  }
+  .ProjectSpacePhoto {
+    max-width: 300px;
+    height: auto;
   }
 }
 

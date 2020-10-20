@@ -3,7 +3,6 @@ import "./sidebar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import IEEELogo from "../images/IEEESDLogo.png";
 import Link from "gatsby-link"
-import { navigate } from '@reach/router';
 import {
     faHome,
     faPaperPlane,
@@ -34,31 +33,31 @@ class sidebar extends Component {
         <div>
         <img src={IEEELogo} className="logo" />
         <ul>
-          <Link className="nonActive" activeClassName="active" to="#main">
+          <Link className="nonActive" activeClassName="active" to="/#main">
             <FontAwesomeIcon className="icon" icon={faHome} />
             <div className="text">Overview</div>
           </Link>
-          <Link className="nonActive" activeClassName="active" to="#events" >
+          <Link className="nonActive" activeClassName="active" to="/#events" >
             <FontAwesomeIcon className="icon" icon={faCalendarAlt} />
             <div className="text">Events</div>
           </Link>
-          <Link className="nonActive" activeClassName="active" to="#about" >
+          <Link className="nonActive" activeClassName="active" to="/#about" >
             <FontAwesomeIcon className="icon" icon={faPaperPlane} />
             <div className="text">About</div>
           </Link>
-          <Link className="nonActive" activeClassName="active" to="#contact">
+          <Link className="nonActive" activeClassName="active" to="/#contact">
             <FontAwesomeIcon className="icon" icon={faInbox} />
             <div className="text">Contact Us</div>
           </Link>
-          <Link className="nonActive" activeClassName="active" to="#getinvolved">
+          <Link className="nonActive" activeClassName="active" to="/#getinvolved">
             <FontAwesomeIcon className="icon" icon={faSeedling} />
             <div className="text">Get Involved</div>
           </Link>
-          <Link className="nonActive" activeClassName="active" to="#sponsorship">
+          <Link className="nonActive" activeClassName="active" to="/#sponsorship">
             <FontAwesomeIcon className="icon" icon={faHeart} />
             <div className="text">Sponsorship</div>
           </Link>
-          <Link className="nonActive" activeClassName="active" to="#projects">
+          <Link className="nonActive" activeClassName="active" to="/#projects">
             <FontAwesomeIcon className="icon" icon={faLightbulb} />
             <div className="text">Projects</div>
           </Link>

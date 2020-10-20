@@ -62,7 +62,7 @@ const IndexPage = () => (
           <h1>Photos</h1>
           <div className="PhotoGrid">
             <img src={photo1}></img>
-            <img classname="photo2" src={photo2}></img>
+            <img className="photo2" src={photo2}></img>
           </div>
         </div>
       </div>
@@ -175,7 +175,7 @@ const IndexPage = () => (
                   <span className="icon arrow"></span>
                 </span>
                 <a href="http://eepurl.com/gkUclH" className="button-text">
-                  Our Newsletter
+                  Newsletter
                 </a>
               </button>
             </div>
@@ -192,7 +192,7 @@ const IndexPage = () => (
                   href="https://www.facebook.com/ieeeucsd/?view_public_for=851520398231493"
                   className="button-text"
                 >
-                  Our Facebook
+                  Facebook
                 </a>
               </button>
             </div>

@@ -48,9 +48,22 @@ h1 {
   color: black;
 }
 
+.sidebar a:hover .icon {
+  color: white;
+}
+
+.sidebar a:hover {
+  background-color: #003c73;
+  color: white;
+  border-radius: 20px;
+  transition-duration: 0.5s;
+}
+
+/*
 .sidebar a:hover:not(.active) {
   background-color: #003c73;
   color: white;
   border-radius: 20px;
   transition-duration: 0.5s;
 }
+*/
