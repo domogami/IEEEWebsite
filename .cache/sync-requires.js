@@ -20,6 +20,6 @@ exports.json = {
   "404.json": require("/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/404.json"),
   "index.json": require("/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/index.json"),
   "page-2.json": require("/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/page-2.json"),
-  "404-html.json": require("/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/404-html.json"),
-  "sponsor.json": require("/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/sponsor.json")
+  "sponsor.json": require("/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/sponsor.json"),
+  "404-html.json": require("/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/404-html.json")
 }

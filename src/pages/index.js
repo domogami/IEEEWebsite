@@ -16,7 +16,7 @@ import {
   faUsers,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
-import IEEELogo from "../images/IEEESDLogo.png";
+
 import photo1 from "../images/outreach.jpg";
 import photo2 from "../images/technical.jpg";
 import EventCard from "../components/eventCard.js";
@@ -24,6 +24,7 @@ import ProjectSpace from "../images/projectspace.jpg";
 import Sponsors from "../images/sponsors2019-2020.png";
 import QP from "../images/quarter.jpg";
 import AP from "../images/micromouse.jpg";
+import Sidebar from "../components/sidebar";
 
 var mainColors = {
   Default: "#81b71a",
@@ -37,41 +38,10 @@ var mainColors = {
 const IndexPage = () => (
   <div>
     <div className="sidebar">
-      <img src={IEEELogo} className="logo" />
-      <ul>
-        <a className="active" href="/">
-          <FontAwesomeIcon className="icon" icon={faHome} />
-          <div className="text">Overview</div>
-        </a>
-        <a href="#about">
-          <FontAwesomeIcon className="icon" icon={faPaperPlane} />
-          <div className="text">About</div>
-        </a>
-        <a href="#getinvolved">
-          <FontAwesomeIcon className="icon" icon={faSeedling} />
-          <div className="text">Get Involved</div>
-        </a>
-        <a href="#events">
-          <FontAwesomeIcon className="icon" icon={faCalendarAlt} />
-          <div className="text">Events</div>
-        </a>
-        <a href="#projects">
-          <FontAwesomeIcon className="icon" icon={faLightbulb} />
-          <div className="text">Projects</div>
-        </a>
-        <a href="#sponsorship">
-          <FontAwesomeIcon className="icon" icon={faHeart} />
-          <div className="text">Sponsorship</div>
-        </a>
-        <a href="#contact">
-          <FontAwesomeIcon className="icon" icon={faInbox} />
-          <div className="text">Contact Us</div>
-        </a>
-      </ul>
+    <Sidebar />
     </div>
-
     <div className="content">
-      <div className="Main">
+      <div className="Main" id="main">
         <div className="blob"></div>
         <div className="TextGroup">
           <h1>IEEE UC San Diego</h1>
@@ -96,7 +66,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <div className="Events">
+      <div className="Events" id="events">
         <h1>Events</h1>
         <EventCard
           title="ML Bootcamp"
@@ -276,7 +246,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="content4">
-      <div className="Sponsorship">
+      <div className="Sponsorship" id="sponsorship">
         <h1>Sponsorship</h1>
         <div className="SponsorText">
           <p1>
@@ -313,7 +283,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="content5">
-      <div className="Projects">
+      <div className="Projects" id="projects">
         <h1>Projects</h1>
         <div className="QPandAP">
           <div className="projectText">

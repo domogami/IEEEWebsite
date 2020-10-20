@@ -22,58 +22,6 @@ h1 {
   margin-left: 40px;
 }
 
-.sidebar {
-  margin: 0;
-  padding: 0;
-  border-top-right-radius: 35px;
-  border-bottom-right-radius: 35px;
-  width: 300px;
-  background-color: #ffffff;
-  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-.logo {
-  max-width: 200px;
-  padding-top: 50px;
-  padding-bottom: 10px;
-  margin-left: 20px;
-}
-.sidebar .icon {
-  color: #c4c4c4;
-  padding: 5px;
-  padding-left: 10px;
-}
-.sidebar a {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  color: black;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 12px 10px 12px 5px;
-  text-decoration: none;
-  max-width: 200px;
-}
-.sidebar .text {
-  text-align: left;
-  width: 140px;
-}
-.sidebar a.active .icon {
-  color: black;
-}
-.sidebar a {
-  border-radius: 20px;
-}
-
-.sidebar a:hover:not(.active) {
-  background-color: #003c73;
-  color: white;
-  border-radius: 20px;
-  transition-duration: 0.5s;
-}
-
 /* For Fun Appear */
 @keyframes SlideUpAnimation {
   0% {

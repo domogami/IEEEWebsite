@@ -15,8 +15,8 @@ exports.json = {
   "404.json": require("gatsby-module-loader?name=path---404!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/404.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/index.json"),
   "page-2.json": require("gatsby-module-loader?name=path---page-2!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/page-2.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/404-html.json"),
-  "sponsor.json": require("gatsby-module-loader?name=path---sponsor!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/sponsor.json")
+  "sponsor.json": require("gatsby-module-loader?name=path---sponsor!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/sponsor.json"),
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/404-html.json")
 }
 
 exports.layouts = {

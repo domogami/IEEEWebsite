@@ -5,6 +5,10 @@ import favicon from "../images/favicon.ico";
 import Header from "../components/header";
 import "./index.css";
 
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
