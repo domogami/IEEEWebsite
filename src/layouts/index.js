@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import favicon from "../images/favicon.ico";
 import Header from "../components/header";
 import "./index.css";
-
+import '@fortawesome/fontawesome-svg-core/styles.css';
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
   require("smooth-scroll")('a[href*="#"]')
