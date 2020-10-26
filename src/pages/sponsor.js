@@ -17,7 +17,10 @@ import Sidebar from "../components/sidebar";
 const SponsorPage = () => (
   <div>
     <div className="sidebar">
-    <Sidebar /> 
+    <Sidebar />
+	<div className=“Main”>
+		<h1></h1>
+	</div>	
    </div>
   </div>
 );
