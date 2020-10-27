@@ -2,19 +2,12 @@ import React from "react";
 import Link from "gatsby-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faHome,
-  faPaperPlane,
-  faCalendarAlt,
   faHeart,
-  faInbox,
-  faLightbulb,
-  faSeedling,
   faArrowRight,
   faBrain,
   faCodeBranch,
   faRobot,
   faUsers,
-  faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 
 import photo1 from "../images/outreach.jpg";
@@ -267,9 +260,9 @@ const IndexPage = () => (
               >
                 <span className="icon arrow"></span>
               </span>
-              <a href="/sponsor" className="button-text">
+              <Link to="/sponsor" className="button-text">
                 Support Us
-              </a>
+              </Link>
             </button>
           </div>
         </div>
