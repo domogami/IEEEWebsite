@@ -296,9 +296,9 @@ const IndexPage = () => (
                 >
                   <span className="icon arrow"></span>
                 </span>
-                <a href="http://tinyurl.com/QPTeamApp" className="button-text">
+                <Link to="/qp" className="button-text">
                   Learn More
-                </a>
+                </Link>
               </button>
             </div>
           </div>
@@ -318,9 +318,9 @@ const IndexPage = () => (
               >
                 <span className="icon arrow"></span>
               </span>
-              <a href="/" className="button-text">
+              <Link to="/qp" className="button-text">
                 Learn More
-              </a>
+              </Link>
             </button>
           </div>
         </div>

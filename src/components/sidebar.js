@@ -30,7 +30,7 @@ class sidebar extends Component {
       
   render() {
     return (
-        <div>
+      <div>
         <img src={IEEELogo} className="logo" />
         <ul>
           <Link className="nonActive" activeClassName="active" to="/#main">

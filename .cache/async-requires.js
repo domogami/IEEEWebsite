@@ -6,6 +6,8 @@ exports.components = {
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/domogami/Documents/GitHub/IEEEWebsite/src/pages/404.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/domogami/Documents/GitHub/IEEEWebsite/src/pages/index.js"),
   "component---src-pages-page-2-js": require("gatsby-module-loader?name=component---src-pages-page-2-js!/Users/domogami/Documents/GitHub/IEEEWebsite/src/pages/page-2.js"),
+  "component---src-pages-qp-js": require("gatsby-module-loader?name=component---src-pages-qp-js!/Users/domogami/Documents/GitHub/IEEEWebsite/src/pages/qp.js"),
+  "component---src-pages-robocup-js": require("gatsby-module-loader?name=component---src-pages-robocup-js!/Users/domogami/Documents/GitHub/IEEEWebsite/src/pages/robocup.js"),
   "component---src-pages-sponsor-js": require("gatsby-module-loader?name=component---src-pages-sponsor-js!/Users/domogami/Documents/GitHub/IEEEWebsite/src/pages/sponsor.js")
 }
 
@@ -15,6 +17,8 @@ exports.json = {
   "404.json": require("gatsby-module-loader?name=path---404!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/404.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/index.json"),
   "page-2.json": require("gatsby-module-loader?name=path---page-2!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/page-2.json"),
+  "qp.json": require("gatsby-module-loader?name=path---qp!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/qp.json"),
+  "robocup.json": require("gatsby-module-loader?name=path---robocup!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/robocup.json"),
   "sponsor.json": require("gatsby-module-loader?name=path---sponsor!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/sponsor.json"),
   "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/json/404-html.json")
 }
