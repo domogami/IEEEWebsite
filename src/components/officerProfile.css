@@ -12,7 +12,16 @@
   max-height: 150px;
 }
 
+.officerProfile p2 {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2a1a4e;
+}
+
 .officerProfile p1 {
+  font-size: 16px;
   text-align: center;
   margin: auto;
   padding: 10px 20px;
@@ -20,13 +29,6 @@
   font-weight: 600;
   color: white;
   margin-bottom: 20px;
-}
-
-.officerProfile p2 {
-  text-align: center;
-  padding: 20px;
-  font-weight: 600;
-  color: #2a1a4e;
 }
 
 .officerProfile:nth-child(4n-3) p1 {

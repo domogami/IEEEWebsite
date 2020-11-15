@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
+
+// Awesome Icons :)
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHeart,
@@ -10,22 +12,47 @@ import {
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 
+// Photos
 import photo1 from "../images/outreach.jpg";
 import photo2 from "../images/technical.jpg";
-import EventCard from "../components/eventCard.js";
 import ProjectSpace from "../images/projectspace.jpg";
 import Sponsors from "../images/sponsors2019-2020.png";
 import QP from "../images/quarter.jpg";
 import AP from "../images/micromouse.jpg";
+
+// Components
+import EventCard from "../components/eventCard.js";
+import OfficerProfile from "../components/officerProfile.js";
 import Sidebar from "../components/sidebar";
+
+// Officer Avatars
 import Chair from "../images/officers/Chair - William Martino.jpg"
 import VCE from "../images/officers/VC External - Lavita Zuo.jpg"
 import VCI from "../images/officers/VC Internal - Angela Wang.jpg"
 import VCP from "../images/officers/VC Projects - Eric Xiao.jpg"
 import VCF from "../images/officers/VCF - Parth Desai.jpg"
 import VCEvents from "../images/officers/VC Events - Sarp User.jpeg"
-import OfficerProfile from "../components/officerProfile.js";
+import GrandPrIEEE from "../images/officers/Grand PrIEEE- Ryan Tran.jpg"
+import PR1 from "../images/officers/PR - Angela Liu.jpg"
+import PR2 from "../images/officers/PR - Hannah Zhou.png"
+import PR3 from "../images/officers/PR - Michele Murakami.jpg"
+import PR4 from "../images/officers/PR - Steven Liu - Huaning Liu.png"
+import Outreach from "../images/officers/Outreach - Ishaan Kavoori.png"
+import Professional from  "../images/officers/Professional - Yukti Vijay.jpeg"
+import ProjectDrive from  "../images/officers/Project Drive - Tianyue Zhao.jpeg"
+import PSChair from  "../images/officers/Project Space - Benjamin Tang.jpeg"
+import QP1 from "../images/officers/QP - Danny Vo.jpg"
+import QP2 from "../images/officers/QP - Siddharth Nag.jpg"
+import Robocup from "../images/officers/Robocup - Joaquin Caso.jpg"
+import Social1 from "../images/officers/Social - Amy Nguyen.jpeg"
+import Social2 from "../images/officers/Social - Clyde Baron Rapinan.jpeg"
+import Social3 from "../images/officers/Social - Oliver Korchnoy.jpg"
+import TechnicalChair1 from "../images/officers/Technical - Chase Bastian.jpg"
+import TechnicalChair2 from "../images/officers/Technical - Tim Wang.jpg"
+import TechnicalChair3 from "../images/officers/Technical - William Duan.jpg"
+import Webmaster from "../images/officers/Webmaster - Dominick Lee.jpg"
 
+// Color Scheme
 var mainColors = {
   Default: "#81b71a",
   Blue: "#0059da",
@@ -38,7 +65,7 @@ var mainColors = {
 const IndexPage = () => (
   <div>
     <div className="sidebar">
-    <Sidebar />
+      <Sidebar />
     </div>
     <div className="content">
       <div className="Main" id="main">
@@ -61,8 +88,8 @@ const IndexPage = () => (
         <div className="Photos">
           <h1>Photos</h1>
           <div className="PhotoGrid">
-            <img src={photo1}></img>
-            <img className="photo2" src={photo2}></img>
+            <img src={ photo1 }></img>
+            <img className="photo2" src={ photo2 }></img>
           </div>
         </div>
       </div>
@@ -335,7 +362,7 @@ const IndexPage = () => (
     </div>
     <div className="content6">
       <div className="ourTeam" id="team">
-        <h1>Meet The Team</h1>
+        <h1>Meet The Officers</h1>
         <div className="executiveGrid">
           <OfficerProfile 
             name="William Martino"
@@ -371,6 +398,101 @@ const IndexPage = () => (
             name="Sarp User"
             avatar={ VCEvents }
             position="VC Events"
+          />
+          <OfficerProfile 
+            name="Ryan Tran"
+            avatar={ GrandPrIEEE }
+            position="Grand PrIEEE"
+          />
+          <OfficerProfile 
+            name="Angela Liu"
+            avatar={ PR1 }
+            position="PR Chair"
+          />
+          <OfficerProfile 
+            name="Hannah Zhou"
+            avatar={ PR2 }
+            position="PR Chair"
+          />
+          <OfficerProfile 
+            name="Michele Murakami"
+            avatar={ PR3 }
+            position="PR Chair"
+          />
+          <OfficerProfile 
+            name="Steven Liu"
+            avatar={ PR4 }
+            position="PR Chair"
+          />
+          <OfficerProfile 
+            name="Ishaan Kavoori"
+            avatar={ Outreach }
+            position="Outreach Chair"
+          />
+          <OfficerProfile 
+            name="Yukti Vijay"
+            avatar={ Professional }
+            position="Project Drive"
+          />
+          <OfficerProfile 
+            name="Tianyue Zhao"
+            avatar={ ProjectDrive }
+            position="Project Drive"
+          />
+          <OfficerProfile 
+            name="Benjamin Tang"
+            avatar={ PSChair }
+            position="Project Space"
+          />
+          <OfficerProfile 
+            name="Danny Vo"
+            avatar={ QP1 }
+            position="QP Chair"
+          />
+          <OfficerProfile 
+            name="Siddharth Nag"
+            avatar={ QP2 }
+            position="QP Chair"
+          />
+          <OfficerProfile 
+            name="Joaquin Caso"
+            avatar={ Robocup }
+            position="Robocup Chair"
+          />
+          <OfficerProfile 
+            name="Amy Nguyen"
+            avatar={ Social1 }
+            position="Social Chair"
+          />
+          <OfficerProfile 
+            name="Clyde Rapinan"
+            avatar={ Social2 }
+            position="Social Chair"
+          />
+          <OfficerProfile 
+            name="Oliver Korchnoy"
+            avatar={ Social3 }
+            position="Social Chair"
+          />
+          <OfficerProfile 
+            name="Chase Bastian"
+            avatar={ TechnicalChair1 }
+            position="Technical Chair"
+          />
+          <OfficerProfile 
+            name="Tim Wang"
+            avatar={ TechnicalChair2 }
+            position="Technical Chair"
+          />
+          <OfficerProfile 
+            name="William Duan"
+            avatar={ TechnicalChair3 }
+            position="Technical Chair"
+          />
+          <OfficerProfile 
+            name="Dominick Lee"
+            avatar={ Webmaster }
+            position="Webmaster"
           />
         </div>
       </div>
