@@ -14,8 +14,8 @@
 
 .Card:hover {
   transition-duration: 0.5s;
-  transform: translateY(-5px) scale(1.05);
   box-shadow: 0 0 10px #65626b;
+  transform: translateY(-5px) scale(1.05);
 }
 
 .Card h1 {
