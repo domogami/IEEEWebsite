@@ -18,6 +18,13 @@ import Sponsors from "../images/sponsors2019-2020.png";
 import QP from "../images/quarter.jpg";
 import AP from "../images/micromouse.jpg";
 import Sidebar from "../components/sidebar";
+import Chair from "../images/officers/Chair - William Martino.jpg"
+import VCE from "../images/officers/VC External - Lavita Zuo.jpg"
+import VCI from "../images/officers/VC Internal - Angela Wang.jpg"
+import VCP from "../images/officers/VC Projects - Eric Xiao.jpg"
+import VCF from "../images/officers/VCF - Parth Desai.jpg"
+import VCEvents from "../images/officers/VC Events - Sarp User.jpeg"
+import OfficerProfile from "../components/officerProfile.js";
 
 var mainColors = {
   Default: "#81b71a",
@@ -323,6 +330,48 @@ const IndexPage = () => (
               </Link>
             </button>
           </div>
+        </div>
+      </div>
+    </div>
+    <div className="content6">
+      <div className="ourTeam" id="team">
+        <h1>Meet The Team</h1>
+        <div className="executiveGrid">
+          <OfficerProfile 
+            name="William Martino"
+            avatar={ Chair }
+            position="Chair"
+          />
+          <OfficerProfile 
+            name="Lavita Zuo"
+            avatar={ VCE }
+            position="VC External"
+          />
+          <OfficerProfile 
+            name="Angela Wang"
+            avatar={ VCI }
+            position="VC Internal"
+          />
+          <OfficerProfile 
+            name="Eric Xiao"
+            avatar={ VCP }
+            position="VC Projects"
+          />
+          <OfficerProfile 
+            name="Parth Desai"
+            avatar={ VCF }
+            position="VC Finance"
+          />
+          <OfficerProfile 
+            name="Parth Desai"
+            avatar={ VCF }
+            position="VC Finance"
+          />
+          <OfficerProfile 
+            name="Sarp User"
+            avatar={ VCEvents }
+            position="VC Events"
+          />
         </div>
       </div>
     </div>
