@@ -32,7 +32,7 @@ class sidebar extends Component {
     return (
       <div>
         <img src={IEEELogo} className="logo" />
-        <ul>
+        <ul className="sidebarItems">
           <Link className="nonActive" activeClassName="active" to="/#main">
             <FontAwesomeIcon className="icon" icon={faHome} size="1x"/>
             <div className="text">Overview</div>

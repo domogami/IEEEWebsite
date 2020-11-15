@@ -30,7 +30,7 @@ p {
 @keyframes SlideUpAnimation {
   0% {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(40px);
   }
   100% {
     opacity: 1;
@@ -72,10 +72,10 @@ p {
 }
 
 .TextGroup {
+  opacity: 0;
   text-align: left;
   margin: 40px;
-  animation: SlideLeftAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-  opacity: 0;
+  animation: SlideUpAnimation 3s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 .TextGroup h1 {
   font-size: 60px;
@@ -117,12 +117,29 @@ p {
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
   max-height: 95vh;
   min-height: 900px;
-  animation: SlideLeftAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: SlideUpAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 }
 
 .Events p {
   margin-left: 30px;
+}
+
+.Card:nth-child(2) {
+  opacity: 0;
+  animation: SlideUpAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.Card:nth-child(3) {
+  opacity: 0;
+  animation: SlideUpAnimation 3s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.Card:nth-child(4) {
+  opacity: 0;
+  animation: SlideUpAnimation 3s 0.6s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.Card:nth-child(5) {
+  opacity: 0;
+  animation: SlideUpAnimation 3s 0.8s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Photos {

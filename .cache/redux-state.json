@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/domogami/Documents/GitHub/IEEEWebsite/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "308c1875de74ec258c36d94e49d9b7d8",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -448,14 +458,16 @@
       "siteMetadata": {
         "title": "IEEE at UCSD"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-11-15T03:25:23.477Z",
+      "buildTime": "2020-11-15T03:37:30.768Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5c936afbf29f7d3670280d7caa464f0d",
+        "contentDigest": "aa5ed176f94608f2979a51c540de47f9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -476,7 +488,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "61f104b944890cdc4222f71dcaa1d1e0",
+        "contentDigest": "11292d8bd83f0c89cae0ae49cb654120",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -497,7 +509,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c77222355bca6cab9cc846f3fbc258f8",
+        "contentDigest": "cd33a7b704654aee913d60388875deaa",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -518,7 +530,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "571bfb7e28fca76accf5c2707cdf54e5",
+        "contentDigest": "f71e0dfd4be753de035bd1d243528575",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -539,7 +551,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9414450af90b87fbecb5a0ae59d101ca",
+        "contentDigest": "a1fbacaaac36c27a085c3b0820ad92d0",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -560,7 +572,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0fba39ad4ae4812c00fe609d2a0dd556",
+        "contentDigest": "b76d4bff15a57390f13ca4684e74d434",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -581,7 +593,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b66dc595c56606779ae4ec4b473cf314",
+        "contentDigest": "0e5ed522f48d3c6fb5cfd02ebd307dbf",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -602,7 +614,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9588eaf7de9c28d57e80990ba9d8824f",
+        "contentDigest": "f11257928dbfb6a04f0c39da41842af4",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
